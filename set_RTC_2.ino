@@ -10,7 +10,7 @@ void setup(){
   lcd.init();
   lcd.backlight();
   
-  rtc.setDate(21, 11, 2023);   //07 januari 2019
+  rtc.setDate(21, 11, 2023);   //21 November 2023
   rtc.setTime(11, 56, 30);    //08:00:00
   rtc.setDOW(2);              //Selasa
 }
